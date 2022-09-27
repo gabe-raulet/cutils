@@ -3,11 +3,7 @@
 #include <stdint.h>
 #include "array.h"
 
-typedef struct
-{
-    uint64_t *v;
-    long n;
-} bitmap;
+typedef struct { uint64_t *v; long n; } bitmap;
 
 /**
  * @macro bitmap_items
